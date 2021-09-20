@@ -1,0 +1,95 @@
+article {
+    line-height: 1.7;
+    padding: 2rem;
+}
+
+
+
+img {
+    box-shadow: none;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: inherit;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+header h1,
+h2 {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+li {
+    margin: 5rem 1rem;
+    font-size: 2rem;
+}
+
+li h3 {
+    font-size: 2rem;
+    color: #e6c07b;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+a h3:hover {
+    color: white;
+}
+
+.container {
+    background-color: #535353;
+    border: 6px solid gray;
+    padding: 3rem;
+    padding-bottom: 0;
+}
+
+article p {
+    padding-right: 12rem;
+}
+
+li p {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+nav li a {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: inherit;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    border: 3px solid #000;
+}
+
+footer a {
+    flex: 1 1 auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #e6c07b;
+}
+
+footer a:hover {
+    text-decoration: none;
+    background-color: #e6c07b;
+    color: #282828;
+}

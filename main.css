@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+/* Fonts and Colors*/
+body {
+    font-family: "Josefin Sans";
+    color: #e6c07b;
+    background-color: #282828;
+}
+
+header,
+nav,
+footer,
+nav a {
+    background-color: rgba(79, 26, 26, 0.95);
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+footer h2 {
+    font-family: "Yusei Magic";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Header*/
+header {
+    background-color: #282828;
+}
+
+header h1 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+}
+
+header img {
+    box-shadow: none;
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+
+.ya {
+    display: none;
+}
+
+.boi {
+    display: none;
+}
+
+.michael {
+    text-align: center;
+    font-size: 2rem;
+}
+
+header figure {
+    position: relative;
+    transition: 1.2s;
+}
+
+header figcaption {
+    display: none;
+    position: absolute;
+    font-size: 2.5rem;
+    padding-top: 27%;
+    padding-bottom: 24%;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*Nav*/
+nav {
+    font-weight: bold;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 0.2rem;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+nav li a {
+    background-image: url(images/Untitled-1.jpg);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    text-decoration: none;
+    transition: background-size 1.3s;
+    font-size: 1.1rem;
+}
+
+nav li a:hover {
+    background-size: 4px 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+svg {
+    transform: scale(0.65);
+    transition: 1s;
+}
+
+.logo svg:hover {
+    transform: scale(0.65)rotate(-90deg);
+    opacity: 0.2;
+}
+
+.logo a {
+    background-image: url(images/angle-double-up-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 39px;
+}
+
+
+/*main-content*/
+.about {
+    border-left: 3px solid #fff;
+    margin: 2rem;
+    margin-top: 4rem;
+
+}
+
+#my-info {
+    padding-top: 2rem;
+}
+
+
+#my-info img {
+    transition: transform 700ms;
+}
+
+#my-info img:hover {
+    transform: scale(1.1)
+}
+
+
+#homework h2 {
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    font-size: 1.4rem;
+}
+
+#homework {
+    text-align: center;
+    list-style-position: inside;
+    margin-bottom: 4rem;
+}
+
+#homework li {
+    text-align: center;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+li a {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #654813;
+}
+
+/*Footer*/
+footer li {
+    list-style-type: none;
+}
+
+footer ul {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    margin-bottom: 0;
+    padding: 0.1rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.6rem;
+}
+
+footer h2 {
+    font-size: 1.6rem;
+    padding-top: 0.4rem;
+    margin-bottom: 0;
+}
+
+footer i {
+    color: darkgray;
+    transition: transform 400ms;
+    transform: scale(0.7)
+}
+
+footer i:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+td,
+th,
+tr {
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+th {
+    text-align: center;
+}
+
+td:nth-child(even) {
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.indo {
+    width: 90%;
+    background-color: lightcoral;
+}
+
+.english {
+    width: 88%;
+    background-color: lightblue;
+}
+
+.dutch {
+    width: 60%;
+    background-color: lightgreen;
+}
+
+.language {
+    padding-left: 50%;
+    display: inline-block;
+}
+
+.contain-language {
+    position: relative;
+}
+
+.language-box {
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    background-color: #282828;
+    z-index: 1;
+    transition: 1s;
+    ;
+}
+
+.language-box:hover {
+    opacity: 0;
+}
+
+.bars {
+    position: absolute;
+    width: 50%;
+    background-color: white;
+}
+
+.welcome {
+    display: none;
+    margin: 3rem;
+}
+
+.welcome-animation {
+    border: 3px solid #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 0rem 5rem;
+}
+
+.welcome-animation div {
+
+    overflow: hidden;
+    position: relative;
+}
+
+.welcome-animation li {
+    height: 50px;
+    margin-bottom: 45px;
+    display: block;
+}
+
+
+.welcome-animation ul {
+    font-size: 2.6rem;
+    font-weight: 900;
+    margin-top: -245px;
+    margin-left: 20px;
+    animation: rotate 7s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@keyframes rotate {
+    0% {
+        margin-top: -440px;
+    }
+
+    24% {
+        margin-top: -245px;
+    }
+
+    48% {
+        margin-top: -50px;
+    }
+
+    72% {
+        margin-top: 145px;
+    }
+
+    96% {
+        margin-top: 330px;
+    }
+
+    100% {
+        margin-top: 440px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .michael {
+        font-size: 3rem;
+    }
+
+    .welcome-contain {
+        display: flex;
+    }
+
+    .welcome {
+        display: flex;
+    }
+
+    .welcome-animation {
+        font-size: 1rem;
+    }
+
+    .welcome-animation li {
+        font-size: 2rem;
+    }
+
+    .my-info-h2 {
+        text-align: left;
+        font-size: 2.4rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .welcome-animation {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+
+    .ya {
+        padding-left: 4rem;
+        font-size: 4rem;
+        display: inline;
+    }
+
+    .boi {
+        padding-left: 8rem;
+        font-size: 3.8rem;
+        display: inline;
+    }
+
+    .michael {
+        padding-left: 4rem;
+        font-size: 3.4rem;
+        text-align: left;
+    }
+
+
+
+    header img {
+        transform: scale(1);
+    }
+
+    header {
+        background-color: rgba(79, 26, 26, 0.95);
+    }
+
+    header figure:hover figcaption {
+        display: inline;
+    }
+
+    header figure:hover {
+        transform: scale(1.3);
+    }
+
+    .about {
+        border-left: 3px solid #fff;
+        margin: 2rem;
+        margin-top: 4rem;
+        padding: 2rem;
+        margin: 0rem;
+    }
+
+    .contain-language h2 {
+        line-height: 7rem;
+    }
+
+    #homework h2 {
+        font-size: 2.2rem;
+    }
+
+    #homework li {
+        text-align: center;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
+
+    footer h2 {
+        font-size: 2.5rem;
+    }
+
+    footer i {
+        transform: scale(1)
+    }
+
+    footer ul {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .welcome-animation li {
+        font-size: 2.4rem;
+    }
+}

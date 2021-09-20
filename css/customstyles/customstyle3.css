@@ -1,0 +1,125 @@
+/*Kids*/
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Mystery+Quest&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F99D07;
+    font-family: "Bubblegum Sans", sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    padding: 25px;
+    background-color: #37B6F6;
+    color: #882FF6;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+figure {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Mystery Quest", sans-serif;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+ol {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0.3rem 0;
+}
+
+section {
+    margin: 3rem;
+}
+
+section h3,
+section p {
+    margin: 0.6rem 0rem;
+}
+
+footer li {
+    padding: 0;
+}
+
+table,
+tr,
+th,
+td {
+    border-collapse: collapse;
+}
+
+table {
+    border: 6px inset #fb4d3d;
+}
+
+tr,
+th,
+td {
+    border: 3px dashed #fb4d3d;
+    padding: 0.4rem 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: #03cea4;
+    color: #ea0d0d;
+}
+
+footer li {
+    padding: 5px;
+}
+
+.top {
+    text-align: right;
+    position: fixed;
+    bottom: 50px;
+    left: 80%
+}
+
+#games {
+    position: relative;
+}
+
+#games img {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+
+nav li {
+    list-style-type: circle;
+}
+
+@media screen and (max-width:600px) {
+    #games img {
+        display: none;
+    }
+}
